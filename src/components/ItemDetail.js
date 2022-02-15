@@ -1,13 +1,14 @@
-const ItemDetail = ({ item }) => {
+
+const ItemDetail = ({ image, description, cost, name }) => {
   return (
     <div className="wrapper">
       <div className="image">
-        {item.image}
+        {image}
       </div>
       <div className="text">
-        <h2>{item.name}</h2>
-        <p>{item.description}</p>
-        <p>{item.cost}</p>
+        <h2>{name}</h2>
+        <p>{description}</p>
+        <p>{cost}</p>
       </div>
     </div>
   )

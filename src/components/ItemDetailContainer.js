@@ -7,12 +7,12 @@ function ItemDetailContainer() {
 
   useEffect(() => {
     getList(list[3], 2000)
-      .then(response => setItems(response))
+      .then(response => setDato(response))
       .catch(error => console.log(error));
   }, []);
 
   return (
-    <ItemDetail item="dato" />
+    <ItemDetail item={dato} />
   )
 }
 export default ItemDetailContainer;
