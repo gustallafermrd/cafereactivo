@@ -1,4 +1,6 @@
 import CartWidget from "./CartWidget";
+import { Link } from 'react-router-dom';
+
 const NavBar = () => {
   return (
     <>
@@ -11,9 +13,9 @@ const NavBar = () => {
               </div> 
               <div className="flex-1 flex items-center justify-center">
                 <div className="flex space-x-3">
-                  <a href="#" className="bg-gray-500 text-white px-3 py-2 rounded-md text-sm font-bold">Cafe en Grano</a>
-                  <a href="#" className="bg-gray-500 text-white px-3 py-2 rounded-md text-sm font-bold">Cafe Molido</a>
-                  <a href="#" className="bg-gray-500 text-white px-3 py-2 rounded-md text-sm font-bold">Cafeteras</a>
+                  <Link to="/" className="bg-gray-500 text-white px-3 py-2 rounded-md text-sm font-bold">Cafe en Grano</Link>
+                  <Link to="/" className="bg-gray-500 text-white px-3 py-2 rounded-md text-sm font-bold">Cafe Molido</Link>
+                  <Link to="/" className="bg-gray-500 text-white px-3 py-2 rounded-md text-sm font-bold">Cafeteras</Link>
                 </div>
               </div>
             </div>
