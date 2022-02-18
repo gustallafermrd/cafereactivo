@@ -12,7 +12,7 @@ const ItemDetailContainer = () => {
     getList(list.find(item => item.id === parseInt(itemId)), 2000)
       .then(response => setDato(response))
       .catch(error => console.log(error));
-  }, []);
+  }, [itemId]);
   
   return (
     <ItemDetail item={dato} />

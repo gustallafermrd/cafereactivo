@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 const Item = ({ id, name, description, cost, image }) => {
+  
   return(
     
     <div className="max-w-xs mx-4 mb-2 rounded-lg shadow-lg">

@@ -9,6 +9,7 @@ function ItemList({ lista }) {
         description={item.description}
         cost={item.cost}
         image={item.image}
+        id={item.id}
       />)
     )
   )
