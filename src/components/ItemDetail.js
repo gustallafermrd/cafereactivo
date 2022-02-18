@@ -1,4 +1,5 @@
 import ItemCount from './ItemCount';
+
 const ItemDetail = ({ item }) => {
   return (
     <>

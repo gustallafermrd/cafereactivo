@@ -5,19 +5,19 @@ import { useParams } from 'react-router-dom';
 
 function ItemListContainer() {
   const [items, setItems] = useState([]);
-  const {category} = useParams();
+  const {categoryId} = useParams();
 
   useEffect(() => {
-    if (category === undefined) {
+    if (categoryId === undefined) {
       getList(list, 2000)
         .then(response => setItems(response))
         .catch(error => console.log(error));
     } else{
-        getList(list.filter(item => item.categoryId === parseInt(category)), 2000)
+        getList(list.filter(item => item.categoryId === parseInt(categoryId)), 2000)
           .then(response => setItems(response))
           .catch(error => console.log(error));
       }
-    }, [category]);
+    }, [categoryId]);
 
   return (
     <div className='grid lg:grid-cols-4 m-2'>

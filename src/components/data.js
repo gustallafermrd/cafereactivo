@@ -113,7 +113,7 @@ export const list = [
   },
   {
     id: 9,
-    name: "Café en Grano, 1/2 Kg",
+    name: "Café en Grano de 1/2 Kg",
     category: "cafe en grano",
     categoryId: 2,
     stock: 100,
@@ -127,7 +127,7 @@ export const list = [
   },
   {
     id: 10,
-    name: "Café en Grano, 1 Kg",
+    name: "Café en Grano de 1 Kg",
     category: "cafe en grano",
     categoryId: 2,
     stock: 100,
@@ -141,7 +141,7 @@ export const list = [
   },
   {
     id: 11,
-    name: "Café en Grano, 1/2 Kg",
+    name: "Café Molido de 1/2 Kg",
     category: "cafe molido",
     categoryId: 3,
     stock: 100,
@@ -155,7 +155,7 @@ export const list = [
   },
   {
     id: 12,
-    name: "Café Molido, 1 Kg",
+    name: "Café Molido de 1 Kg",
     category: "cafe molido",
     categoryId: 3,
     stock: 100,
