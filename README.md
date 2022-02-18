@@ -6,6 +6,7 @@
 - Cada una de las categorías dirige a su respectivo link en donde se pueden observar diferentes productos, los cuales han sido filtrados por el Id de la categoría correspondiente.
 - Al hacer click en el botón "Ver detalles" se puede ver la página del producto seleccionado.
 - Si se hace click a una categoría estando en otra categoría la página se actualiza mostrando los productos de la categoría seleccionada.
+- Las páginas cargan con 2 segundos de demora para simular el tiempo de carga como si trajera información desde una api verdadera.
 
 ### Descripción de la Página
 
