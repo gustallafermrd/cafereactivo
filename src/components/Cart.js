@@ -23,7 +23,7 @@ const Cart =() => {
               <p>Cantidad: {item.qtyItem}</p>
               <img src={item.image} alt={item.name}/>
               <button onClick={prueba.deleteProd}>Eliminar</button>
-              <p>Total: ${prueba.totalCart}</p>
+              <p>Total: ${prueba.totalCart()}</p>
             </>
           ))
       }
