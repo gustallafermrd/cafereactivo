@@ -1,13 +1,17 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import ItemCount from './ItemCount';
 import { Link } from 'react-router-dom';
+import { CartContext } from './CartContext';
+ 
 
 const ItemDetail = ({ item }) => {
   const [itemCount, setItemtCount] = useState(0);
+  const prueba = useContext(CartContext);
 
   const onAdd = (qty) => {
     alert('has seleccionado ' + qty);
     setItemtCount(qty);
+    prueba.addToCart(item, qty);
   }
 
   return (

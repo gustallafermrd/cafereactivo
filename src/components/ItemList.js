@@ -1,6 +1,7 @@
 import Item from './Item';
 
-function ItemList({ lista }) {
+function ItemList ({ lista }) {
+
   return(
     lista.map( (item, index) =>(
       <Item

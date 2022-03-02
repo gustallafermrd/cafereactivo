@@ -17,7 +17,7 @@ function ItemListContainer() {
           .then(response => setItems(response))
           .catch(error => console.log(error));
       }
-    }, [categoryId]);
+    }, [items]);
 
   return (
     <div className='grid lg:grid-cols-4 m-2'>
